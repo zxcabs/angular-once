@@ -134,6 +134,12 @@
           element.css('display', '');
         }
       }
+    },
+    {
+      name: 'onceValue',
+      binding: function (element, value) {
+        element.val(value);
+      }
     }
   ];
 
